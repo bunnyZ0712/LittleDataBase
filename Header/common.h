@@ -22,7 +22,7 @@ enum EpOper{    //EPOLL操作
 };
 
 enum OperCode{              //操作码
-    INSERTOPER = 0,     //插入
+    INSERTOPER = 0,     //插入 
     SET,
     MSET,
     MSETS,

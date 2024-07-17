@@ -22,7 +22,7 @@ public:
     virtual bool Get(void* key, void* value, char oper) override;
     virtual void Display(void) override;
     virtual void Save(std::ostream& saveFile) override;
-
+ 
 private:
     bool SSet(std::string kv);
     bool SGet(std::string key, std::string& value);

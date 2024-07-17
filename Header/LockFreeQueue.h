@@ -95,7 +95,7 @@ bool LockFreeQueue<T>::Push(T data)
     int currentWriteIndex;
     int currentReadIndex;
 
-    do{
+    do{ 
         currentWriteIndex = mWriteIndex.load();
         currentReadIndex = mReadIndex.load();
         if(ConvertIndex(currentWriteIndex + 1) == currentReadIndex) //队列满了

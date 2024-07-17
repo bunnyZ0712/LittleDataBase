@@ -7,7 +7,7 @@
 //     SET = 0,
 //     GET,
 //     DEL
-// };
+// }; 
 
 class StringBuf : public BaseBuf{
 public:

@@ -335,7 +335,7 @@ void SockServer::Work(void) //负责处理命令请求
             return false;
     };
     pid_t flag = getpid();
-    while(true)
+    while(true) 
     {
         std::unique_lock<std::mutex> SockMutex(sockMutex);
         weakUp.wait(SockMutex, condition);

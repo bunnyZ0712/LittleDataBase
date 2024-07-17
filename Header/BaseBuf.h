@@ -6,7 +6,7 @@
 
 class BaseBuf{
 public:
-    BaseBuf() = default;
+    BaseBuf() = default; 
     virtual ~BaseBuf(){};
 
     virtual bool Insert(void* data, char oper) = 0;

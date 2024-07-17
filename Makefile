@@ -5,7 +5,7 @@ ALL:main.out
 
 LIBS = -lpthread
 HEADER = -I./Header
-
+ 
 main.out:$(obj)
 	g++ $^ -o $@ $(LIBS) -g
 

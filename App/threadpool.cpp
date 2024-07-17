@@ -120,7 +120,7 @@ void CThread::AddTask(const Task& task)
 
     NotEmpty.notify_one();
 }
-
+ 
 void CThread::WorkThread(void* arg)
 {
     CThread* ct = static_cast<CThread*>(arg);

@@ -32,7 +32,7 @@ void MapBuf::AnalysisKV(std::string& str, std::map<std::string, std::string>& an
         ans[it.substr(0, p)] = it.substr(p + 1);
     }
 }
-
+ 
 void MapBuf::AnalysisK(std::string& str, std::vector<std::string>& ans) //将命令中的K解析
 {
     int left = str.find_first_of(" :");

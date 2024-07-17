@@ -34,7 +34,7 @@ void StringBuf::Save(std::ostream& saveFile)
     {
         saveFile << it->GetKey() << ":" << it ->GetValue() << std::endl;
         it = it ->forward[0];
-    }
+    } 
 }
 
 bool StringBuf::Insert(void* data, char oper)

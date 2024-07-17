@@ -50,7 +50,7 @@ public:
     void AddTask(const Task& task);
 
     void AddWriteTask(const WriteTask& task);
-
+ 
 private:
     int minNum;
     int maxNum;

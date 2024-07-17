@@ -38,7 +38,7 @@ public:
     static std::shared_ptr<SockServer> GetInstance(void);
     void Work(void);
     void ListenWork(void);
-
+ 
 private:
     void EpollOper(int fd, EpOper RorW, EpOper AorD, void* data);   //EPOLL操作
     void SetNoBlock(int fd);    //设置非阻塞

@@ -7,7 +7,7 @@ public:
     Node();
     Node(K k, V v, int level) noexcept;
     ~Node() noexcept;
-
+ 
     K GetKey(void) const;
     V& GetValue(void);
     void SetValue(V v);

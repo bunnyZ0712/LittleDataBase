@@ -12,7 +12,7 @@ static void ngx_signal_handler(int signo, siginfo_t *siginfo, void *ucontext)
 	pid = waitpid(-1, &status, WNOHANG);
 	std::cout << "回收" << pid << std::endl;
 }
-
+ 
 int main()
 {
 	struct sigaction sa;

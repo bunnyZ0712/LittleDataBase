@@ -23,7 +23,7 @@ public:
     virtual void Display(void) override;
     virtual void Save(std::ostream& saveFile) override;
 
-private:
+private: 
     bool MSet(std::string key, std::string value);
     bool MGet(std::string key, std::string& value);
     bool MDel(std::string keys);
