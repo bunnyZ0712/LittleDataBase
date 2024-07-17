@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/24fc086a-2107-433e-9d6c-6b5f5bf1fc38)# LittleDataBase
+ LittleDataBase
 轻量级缓存数据库，底层使用跳表实现，仿照Redis线程模型
 
 
